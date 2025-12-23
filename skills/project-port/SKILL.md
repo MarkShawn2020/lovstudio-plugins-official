@@ -22,7 +22,7 @@ def generate_port(project_name: str) -> int:
 用户询问端口时，直接计算并告知：
 
 ```
-项目 "lovstudio" 的端口号是：4827
+项目 "lovstudio" 的端口号是：7965
 ```
 
 ### 2. 更新项目配置
@@ -41,7 +41,7 @@ def generate_port(project_name: str) -> int:
 ### 3. 启动开发服务器
 
 ```bash
-PORT=$(${CLAUDE_PLUGIN_ROOT}/skills/project-port/scripts/hashport.sh) pnpm dev
+PORT=$(scripts/hashport.sh) pnpm dev
 ```
 
 ## 脚本
@@ -50,11 +50,11 @@ PORT=$(${CLAUDE_PLUGIN_ROOT}/skills/project-port/scripts/hashport.sh) pnpm dev
 
 ```bash
 # 使用当前目录名
-${CLAUDE_PLUGIN_ROOT}/skills/project-port/scripts/hashport.sh
-# 输出: 4827
+./scripts/hashport.sh
+# 输出: 7965
 
 # 指定项目名
-${CLAUDE_PLUGIN_ROOT}/skills/project-port/scripts/hashport.sh my-project
+./scripts/hashport.sh my-project
 # 输出: 5123
 ```
 
