@@ -33,7 +33,7 @@
 
 ```bash
 # Add marketplace
-/plugin marketplace add MarkShawn2020/lovcc
+/plugin marketplace add MarkShawn2020/lovstudio-plugins-official
 
 # Install plugin
 /plugin install lovstudio@lovstudio-plugins-official
