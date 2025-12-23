@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="docs/images/cover.png" alt="lovcc Cover" width="100%">
+  <img src="docs/images/cover.png" alt="lovstudio-plugins-official Cover" width="100%">
 </p>
 
 <h1 align="center">
   <img src="assets/logo.svg" width="32" height="32" alt="Logo" align="top">
-  lovcc
+  lovstudio-plugins-official
 </h1>
 
 <p align="center">
-  <strong>Personal Claude Code plugin toolkit</strong><br>
+  <strong>Official Lovstudio plugin collection for Claude Code</strong><br>
   <sub>Skills • Hooks • Commands</sub>
 </p>
 
@@ -56,7 +56,7 @@ Generate stable, hash-based port numbers for projects (range 3000-8999).
 
 ```bash
 ${CLAUDE_PLUGIN_ROOT}/skills/project-port/scripts/hashport.sh [project-name]
-# Output: 4827  ← lovcc
+# Output: 5142  ← lovstudio-plugins-official
 ```
 
 Same project name always returns the same port.
@@ -73,7 +73,7 @@ Hooks integrate with Lovnotifier for desktop notifications with tmux context.
 ## Structure
 
 ```
-lovcc/
+lovstudio-plugins-official/
 ├── .claude-plugin/
 │   ├── plugin.json        # Plugin manifest
 │   └── marketplace.json   # Self-hosted marketplace
