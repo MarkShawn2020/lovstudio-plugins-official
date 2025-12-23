@@ -1,5 +1,5 @@
 ---
-name: image-gen
+name: lovstudio:image-gen
 description: Generate images using Gemini via ZenMux
 allowed-tools: [Bash, Read]
 ---

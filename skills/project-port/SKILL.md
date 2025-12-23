@@ -1,5 +1,5 @@
 ---
-name: project-port
+name: lovstudio:project-port
 description: 基于项目名生成稳定唯一的端口号，并自动更新项目配置。当用户需要为项目设置端口、启动开发服务器、解决端口冲突或初始化新项目配置时使用此 skill。
 ---
 
