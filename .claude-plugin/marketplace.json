@@ -1,0 +1,14 @@
+{
+  "name": "lovcc-marketplace",
+  "owner": {
+    "name": "Lovstudio"
+  },
+  "plugins": [
+    {
+      "name": "lovcc",
+      "source": "./",
+      "description": "Lovstudio's personal Claude Code toolkit",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "lovcc",
+  "version": "1.0.0",
+  "description": "Lovstudio's personal Claude Code toolkit - skills, hooks, and commands",
+  "author": {
+    "name": "Lovstudio"
+  },
+  "repository": "https://github.com/lovstudio/lovcc",
+  "license": "MIT",
+  "keywords": ["personal", "toolkit", "image-gen", "notifications"],
+  "hooks": "./hooks/hooks.json"
+}
